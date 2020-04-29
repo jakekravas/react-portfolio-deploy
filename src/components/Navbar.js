@@ -5,12 +5,21 @@ const Navbar = () => {
   return (
     <nav id="nav-main" className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a href="#about-section" className="navbar-brand ss">Jake Kravas</a>
+        <Link
+          activeClass="active"
+          className="navbar-brand ss"
+          to="about-section"
+          spy={true}
+          smooth={true}
+          offset={-200}
+          duration= {1000}
+        >
+          Jake Kravas
+        </Link>
         <button className="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false"><span className="navbar-toggler-icon"></span></button>
         <div className="navbar-collapse collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              {/* <a href="#about-section" className="nav-link ss">About</a> */}
               <Link
                 activeClass="active"
                 className="nav-link ss"
@@ -18,13 +27,12 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-200}
-                duration= {700}
+                duration= {1000}
               >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              {/* <a href="#projects-section" className="nav-link ss">Projects</a> */}
               <Link
                 activeClass="active"
                 className="nav-link ss"
@@ -38,7 +46,6 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              {/* <a href="#contact-section" className="nav-link ss">Contact</a> */}
               <Link
                 activeClass="active"
                 className="nav-link ss"
@@ -46,7 +53,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration= {700}
+                duration= {1000}
               >
                 Contact
               </Link>

@@ -45,3 +45,7 @@ body {
 .contact-link{
   color: #fff;
 }
+
+.ss:hover{
+  cursor: pointer;
+}
