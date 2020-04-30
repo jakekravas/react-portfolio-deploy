@@ -73,7 +73,6 @@ body {
 
 .card-btn{
   border: 1px solid #333;
-  color: #f6f6f6;
   background-color: #333;
   border-radius: 3px;
   margin: 5px;
@@ -137,12 +136,19 @@ body {
 }
 
 .card-link{
-  color: #ebebeb;
+  color: #999;
+}
+
+.card-link:hover{
+  color: #f6f6f6;
 }
 
 @media screen and (max-width: 995px) { 
   .link-container{
     display: flex;
     justify-content: center;
+  }
+  .card{
+    margin: 15px 0 15px 0;
   }
 }

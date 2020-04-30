@@ -5,11 +5,9 @@ const ProjectsSectionT = (props) => {
     <section id="projects-sectionT">
         <h1 id="projects-header" className="display-4">My Projects</h1>
         <div className="row mx-auto" id="project-cards-container">
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <div className="card">
-              <div className="img-container">
-                <img src={props.passwordGeneratorImg} alt="pw-generator" className="card-img-top img-fluid"/>
-              </div>
+              <img src={props.passwordGeneratorImg} alt="pw-generator" className="card-img-top img-fluid"/>
               <div className="card-body">
                 <h5 className="card-title">Disaster Tracker (group project)</h5>
                 <p className="card-text">Shows nationwide COVID-19 case and death totals by state and by county, as well as nearby hospitals and other useful disaster information for any county in the US.</p>
@@ -24,9 +22,9 @@ const ProjectsSectionT = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <div className="card">
-                <img src={props.rateYourRoommateImg} alt="rate-your-roommate" className="card-img-top img-fluid"/>
+              <img src={props.rateYourRoommateImg} alt="rate-your-roommate" className="card-img-top img-fluid"/>
               <div className="card-body">
                 <h5 className="card-title">Rate Your Roommate (group project)</h5>
                 <p className="card-text">Similar to the concept of ratemyproffessors.com, except applied to roommates! View roommate scores and rate your roommates through this app.</p>
@@ -41,7 +39,7 @@ const ProjectsSectionT = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <div className="card">
               <img src={props.codeQuizImg} alt="pw-generator" className="card-img-top img-fluid proj-img"/>
               <div className="card-body">
@@ -61,7 +59,7 @@ const ProjectsSectionT = (props) => {
         </div>
         <div id="sap-btn-container">
           <button id="sap-btn">
-            <a id="sap-link" href="https://github.com/jakekravas" target="_blank" rel="noopener noreferrer"><i className="fab fa-github sm-link"/> See All Projects</a>
+            <a id="sap-link" href="https://github.com/jakekravas" target="_blank" rel="noopener noreferrer"><i className="fab fa-github lg-link"/> See All Projects</a>
           </button>
         </div>
     </section>
