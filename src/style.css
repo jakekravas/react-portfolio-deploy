@@ -1,6 +1,6 @@
 body {
   /* background: #333; */
-  background: #f6f6f6;
+  background: #333;
 }
 
 .sm-link{
@@ -34,6 +34,68 @@ body {
   background-color: #333;
 }
 
+#projects-sectionT{
+  background-color: #333;
+  padding-bottom: 40px;
+}
+
+#projects-header{
+  color: #f6f6f6;
+  text-align: center;
+  padding: 25px 0 25px 0;
+}
+
+#project-cards-container{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.card-btn-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-btn{
+  border: 1px solid #333;
+  color: #f6f6f6;
+  background-color: #333;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card-body{
+  background-color: #222;
+  color: #ebebeb;
+}
+
+.card-text{
+  color: #999;
+}
+
+#sap-btn-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#sap-link{
+  color: #999;
+}
+
+#sap-link:hover{
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+#sap-btn{
+  background-color: #222;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 #contact-section{
   background-color: #222;
 }
@@ -48,4 +110,12 @@ body {
 
 .ss:hover{
   cursor: pointer;
+}
+
+.card{
+  border: none;
+}
+
+.card-link{
+  color: #ebebeb;
 }

@@ -36,7 +36,7 @@ const Navbar = () => {
               <Link
                 activeClass="active"
                 className="nav-link ss"
-                to="projects-section"
+                to="projects-sectionT"
                 spy={true}
                 smooth={true}
                 offset={-45}
@@ -59,10 +59,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="https://www.linkedin.com/in/jake-kravas-80b02719b/" target="_blank" className="nav-link"><i className="fab fa-linkedin-in sm-link"></i></a>
+              <a href="https://www.linkedin.com/in/jake-kravas-80b02719b/" target="_blank" rel="noopener noreferrer" className="nav-link"><i className="fab fa-linkedin-in sm-link"/></a>
             </li>
             <li className="nav-item">
-              <a href="https://github.com/jakekravas" target="_blank" className="nav-link"><i className="fab fa-github sm-link"></i></a>
+              <a href="https://github.com/jakekravas" rel="noopener noreferrer" target="_blank" className="nav-link"><i className="fab fa-github sm-link"/></a>
             </li>
           </ul>
         </div>
