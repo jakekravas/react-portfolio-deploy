@@ -5,7 +5,7 @@ const ProjectsSectionT = (props) => {
     <section id="projects-sectionT">
         <h1 id="projects-header" className="display-4">My Projects</h1>
         <div className="row mx-auto" id="project-cards-container">
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="card">
               <div className="img-container">
                 <img src={props.passwordGeneratorImg} alt="pw-generator" className="card-img-top img-fluid"/>
@@ -24,7 +24,7 @@ const ProjectsSectionT = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="card">
                 <img src={props.rateYourRoommateImg} alt="rate-your-roommate" className="card-img-top img-fluid"/>
               <div className="card-body">
@@ -41,7 +41,7 @@ const ProjectsSectionT = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="card">
               <img src={props.codeQuizImg} alt="pw-generator" className="card-img-top img-fluid proj-img"/>
               <div className="card-body">

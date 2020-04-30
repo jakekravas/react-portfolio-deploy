@@ -108,6 +108,11 @@ body {
   color: #fff;
 }
 
+.contact-link:hover{
+  color: #999;
+  text-decoration: none;
+}
+
 .ss:hover{
   cursor: pointer;
 }
