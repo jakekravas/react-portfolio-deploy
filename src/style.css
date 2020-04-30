@@ -3,6 +3,21 @@ body {
   background: #333;
 }
 
+#header{
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  /* opacity: .8; */
+  z-index: 10;
+  border-bottom: 3px solid #008ed6;
+  /* height: 700px; */
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+}
+
 .sm-link{
   font-size: 18px;
 }
@@ -123,4 +138,11 @@ body {
 
 .card-link{
   color: #ebebeb;
+}
+
+@media screen and (max-width: 995px) { 
+  .link-container{
+    display: flex;
+    justify-content: center;
+  }
 }
