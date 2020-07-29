@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, animateScroll } from 'react-scroll';
 
 const Navbar = () => {
   return (
